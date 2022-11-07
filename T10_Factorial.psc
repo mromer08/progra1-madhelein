@@ -1,5 +1,5 @@
 //202031936 MADHELEIN LOURDES SOCH ORDONEZ
-//Algoritmo en PseInt "factorial de un número"
+//Algoritmo en PseInt "factorial de un nÃºmero"
 Algoritmo T11_Factorial
 	num<-0
 	factorial <- 1
@@ -7,7 +7,7 @@ Algoritmo T11_Factorial
 		Escribir "Ingrese un numero entero para calcular su factorial"
 		Leer num
 		Si num<0 | (num-trunc(num)<>0) Entonces
-			Escribir "Ingrese un número entero positivo"
+			Escribir "Ingrese un nÃºmero entero positivo"
 		FinSi
 	Hasta Que num >= 0 & (num-trunc(num)==0)
 	resultadoText<- ConvertirATexto(num) +"!="+ConvertirATexto(num)
