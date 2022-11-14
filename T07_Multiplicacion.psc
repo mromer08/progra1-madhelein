@@ -6,7 +6,7 @@ Algoritmo T07_Multiplicacion
 	Definir i Como Entero;
 	producto<-0;
 	multiplicando<-0;
-	multiplicador<-0;
+	multiplicador<--1.1;
 	
 	Escribir "Ingrese el multiplicando: ";
 	Leer multiplicando;
